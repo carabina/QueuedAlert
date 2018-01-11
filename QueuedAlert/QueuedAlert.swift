@@ -119,7 +119,7 @@ public extension UIViewController {
                      config configuration: UIAlertConfigurationClosure? = nil,
                      action: UIAlertActionClosure? = nil) -> UIAlertController {
 
-        var alertController = UIAlertController.init(title: title?.localized,
+        var alertController = UIAlertController.init(title: alertTitle?.localized,
                                                      message: message?.localized,
                                                      preferredStyle: style)
         

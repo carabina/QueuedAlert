@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'QueuedAlert'
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "UIAlertController in queue"
   s.homepage         = "https://github.com/Meniny/QueuedAlert"
   s.license          = { :type => "MIT", :file => "LICENSE" }
